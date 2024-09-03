@@ -1,7 +1,7 @@
 /**
  * Author: Suthana Kwaonueng
  * Description: prime sieve
- * Time: O(N \log N) 
+ * Time: O(N \log\log N) 
  */
 //can use to find all prime factor of a number in O(log n)
 const int M = 2e5+1;
