@@ -1,7 +1,7 @@
 /**
  * Author: Theerada Siri
  * Description: Calculates a valid assignment to boolean variables a,
-b, c,... to a 2-SAT problem, so that an expression of the type
+ * b, c,... to a 2-SAT problem, so that an expression of the type
  *(akkb)&&(!akkc)&&(dkk!b)&&... becomes true, or reports that it is unsatis-
  * fiable. Negated variables are represented by bit-inversions (∼x).
  * Time: O(\N + M) 
