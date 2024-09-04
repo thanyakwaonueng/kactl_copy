@@ -1,5 +1,6 @@
 /**
  * Author: Theerada Siri
+ * Description: New tree update and find prefix.
  */
 struct FT {
   vector<ll> s;
@@ -12,8 +13,7 @@ struct FT {
     for (; pos > 0; pos &= pos - 1) res += s[pos-1];
       return res;
   }
-  int lower_bound(ll sum) {// min pos s t sum of [0 , pos ] >= sum
-    // Returns n i f no sum is >= sum, or −1 i f empty sum is .
+  int lower_bound(ll sum) {
     if (sum <= 0) return -1;
     int pos = 0;
     for (int pw = 1 << 25; pw; pw >>= 1) {

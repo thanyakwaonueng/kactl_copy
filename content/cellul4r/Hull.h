@@ -1,4 +1,8 @@
-//Convex Hull
+/**
+ * Author: Theerada Siri
+ * Description: Convex Hull trick
+ */
+
 #pragma GCC target("avx2")
 #pragma GCC optimize("O3")
 #pragma GCC optimize("unroll-loops")

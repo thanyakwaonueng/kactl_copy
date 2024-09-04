@@ -1,5 +1,6 @@
 /**
  * Author: Theerada Siri
+ * Description: Hack with string hash.
  */
 typedef long long int ll;
 typedef pair<ll, ll> pl;

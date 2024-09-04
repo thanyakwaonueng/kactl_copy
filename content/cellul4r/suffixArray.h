@@ -1,5 +1,6 @@
 /**
  * Author: Theerada Siri
+ * Description: find suffix array with string hashing.
  */
 typedef long long int ll;
 typedef pair<ll, ll> pl;

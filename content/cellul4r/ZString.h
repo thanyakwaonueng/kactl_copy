@@ -1,5 +1,6 @@
 /**
  * Author: Theerada Siri
+ * Description: Z Algo for string.
  */
 vector<int> z_function(string s) {
     int n = s.size();
